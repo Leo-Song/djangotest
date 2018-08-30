@@ -53,3 +53,4 @@ def post_comment(request, post_pk):
             return render(request, 'Janblog/detail.html', context=context)
     # 不是 post 请求，说明用户没有提交数据，重定向到文章详情页。
     return redirect(post)
+####aa
