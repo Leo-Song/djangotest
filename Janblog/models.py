@@ -18,7 +18,7 @@ class Tag(models.Model):
 
     def __str__(self):
         return self.name
-
+#ccc
 class Article(models.Model):
     STATUS_CHOICES = (
         ('d', 'Draft'),
