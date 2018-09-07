@@ -8,7 +8,6 @@ if __name__ == '__main__':
 =======
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "LeoBlog.settings")
->>>>>>> 391104e34022b0255ff7347de6834b45f75c14ae
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
