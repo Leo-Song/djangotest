@@ -26,8 +26,7 @@ SECRET_KEY = '6y0mw9(-#^m0ceaskd0e_%l=t6qavnrav%2bok3#br%^81y&$t'
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
-
+ALLOWED_HOSTS = ['127.0.0.1','localhost','172.16.10.151','leoblog.com','blog.leonids.com']
 
 # Application definition
 
@@ -131,5 +130,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = './'
-# STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
