@@ -2,10 +2,8 @@
 import os
 import sys
 
-<<<<<<< HEAD
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LeoBlog.settings')
-=======
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "LeoBlog.settings")
     try:
