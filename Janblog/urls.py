@@ -3,6 +3,7 @@ from django.urls import path, re_path
 from Janblog import views
 
 app_name = 'Janblog'
+#test
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.IndexView.as_view(),name='index'),
