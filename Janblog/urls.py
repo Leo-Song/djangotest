@@ -3,9 +3,10 @@ from django.urls import path, re_path
 from Janblog import views
 
 app_name = 'Janblog'
+#test
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('', views.IndexView.as_view(),name='index'),
+    path('', views.IndexView.as_view(),name='index'),
     # path('', views.index, name='index'),
     # re_path('^search/$',views.search, name='search'),
     re_path('^post/(?P<pk>[0-9]+)/$', views.PostDetailView.as_view(), name='detail'),
