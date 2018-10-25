@@ -26,7 +26,7 @@ SECRET_KEY = '6y0mw9(-#^m0ceaskd0e_%l=t6qavnrav%2bok3#br%^81y&$t'
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','172.16.10.151','leoblog.com','blog.leonids.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','172.16.10.151','*','blog.leonids.com']
 
 # Application definition
 
